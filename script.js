@@ -416,15 +416,15 @@ let questions = [
     correct :"d"
 }
 ];
-if (! "play" in localStorage)
+if (! localStorage.play)
 {
     localStorage.play = 0;
 }
-if (! "won" in localStorage)
+if (! localStorage.won)
 {
 localStorage.won = 0;
 }
-if(! "lost" in localStorage)
+if(! localStorage.lost)
 {
     localStorage.lost = 0;
 }
